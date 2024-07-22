@@ -1,0 +1,171 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    background-position: 50%;
+}
+
+
+.container-fluid{
+    background-color: rgb(31, 31, 31);
+    /* color: white; */
+}
+
+.navbar{
+    background-color: black;
+}
+
+a *{
+    /* border: 1px solid black; */
+    color: white;    
+}
+
+
+#ytblogo{
+    margin-top: 3px;
+    border-bottom: 1px solid white;
+}
+
+.container-subs{
+    background-color:rgb(31, 31, 31);
+    color: white;
+    height: 100px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container-subs:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+#subslogo{
+    /* background-color: black; */
+    height: 100px;
+    width: 165px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#subbtn{
+    margin-left: 20px;
+}
+
+.channel-info{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+.channel-info:hover{
+    text-decoration: underline;
+}
+
+.container-videos{
+    display: block;   
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14pt;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+iframe{
+    display: flex;
+    height: 315px;
+    width: 560px;
+    /* gap: 10231120px; */
+    justify-content: center;
+    align-items: center;
+    margin: 2 auto; 
+    margin-top: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.container-videoctgry{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px violet;   
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 24pt;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.viewall{
+    color: violet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+@media(max-width:1000px){
+
+
+    .navbar{
+        width: 100%;
+    }
+
+    .container-subs{
+        justify-content: left;
+        width: 100%;
+        font-size: 10pt;
+    }
+
+    #topkflogo{
+        display: none;
+    }
+
+    .container-subs{
+        margin-left: 1px;
+    }
+
+    #subslogo{
+       margin-left: -20px;
+       /* width: 200px; */
+    }
+
+    .container-videos{
+        display: block;   
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        font-size: 10pt;
+    }
+
+    iframe{
+        display: block;
+        height: 175px;
+        width: 290px;
+        margin: 0 auto; 
+        margin-top: 8px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .container-videoctgry{
+        font-size: 13pt;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    #subbtn{
+        margin-left: 40px;
+        font-size: 8pt;
+    }
+
+    .channel-info{
+        font-size: 12pt;
+    }
+
+
+}
